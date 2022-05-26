@@ -1,8 +1,5 @@
 import numpy as np
-from PARAM import SEED
 from function import ObjectiveFunction
-
-np.random.seed(SEED)
 
 
 class Solver:

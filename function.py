@@ -1,4 +1,7 @@
 import numpy as np
+from PARAM import SEED
+
+np.random.seed(SEED)
 
 
 class ObjectiveFunction:
