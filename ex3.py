@@ -1,12 +1,14 @@
 import matplotlib.pyplot as plt
 from solver import Solver
+from function import MyFunction
 
 
 def ex3():
-    M = 20
-    N = 50
+    m = 20
+    n = 50
     max_iter = 50
-    slv = Solver(M, N)
+    obj = MyFunction(m, n)
+    slv = Solver(obj)
     x = [k for k in range(max_iter + 1)]
     lams = [0, 1, 10]
     error1 = []

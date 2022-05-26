@@ -4,8 +4,8 @@ from ex3 import ex3
 
 
 def main():
-    # ex1()
-    # ex2()
+    ex1()
+    ex2()
     ex3()
 
 
